@@ -2,14 +2,13 @@ Kerbal Space Program 1.4.1 Career Mode using only kOS for craft control.
 
 Mission Phases:
 
+// Initialize craft and report status
+// pre-flight calculations
+
+// start of flight loop -------------------------------------------------+
+// begin telemetry logging
 // Launch
 // Ascent
-// Guidance
-// Circularize if needed
-// Deorbit if needed
-// Braking burn if needed
-// Descent
-// Landing
 
 // loops:
 //      craft control
@@ -17,21 +16,29 @@ Mission Phases:
 //      gather renewable science and collect
 //      save telemetry
 
-// gather non-renewable science set one
-// gather non-renewable science set two
+// deploy non-renewable science if new
 // collect all science
 
 // boostback burn
+//      or
+// Circularize if needed
+
+// switch craft control and initialize new craft
 
 // deorbit
 // braking burn
 
 // landing:
-// deploy chutes
-//  or
-// powered landing
+//      deploy chutes
+//       or
+//      powered landing
+// end of flight loop ---------------------------------------------------+
 
 // shutdown
 
-// panic mode
+
+// exceptions:
+//  panic mode
+//      save science if possible
+//      land if possible
 
