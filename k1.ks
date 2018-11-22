@@ -154,8 +154,27 @@ function doChuteSafe
 
 // ------------------------------------------------------end landing------
 
+// ------------------------------------------------------shutdown--------+
+
+function doShutdown
+    {
+
+    }.
+
+// ------------------------------------------------------shutdown---------
+
+// ------------------------------------------------------staging---------+
+
+// function doSafeStage
+//    {
+//        wait until stage:ready.
+//        stage.
+//    }
+
+// ------------------------------------------------------staging----------
 
 
+// move this section to Notes
 
 // Launch
 // Ascent
@@ -164,15 +183,6 @@ function doChuteSafe
 // Braking burn if needed
 // Descent
 // Landing
-
-
-// function doSafeStage
-//    {
-//        wait until stage:ready.
-//        stage.
-//    }
-
-
 
 // loops:
 //      craft control
@@ -186,23 +196,15 @@ function doChuteSafe
 
 // boostback burn
 
-
 // deorbit
 // braking burn
-
 
 // landing:
 // deploy chutes
 //  or
 // powered landing
 
-
 // shutdown
-function doShutdown
-    {
-
-    }.
-
 
 // panic mode
 
