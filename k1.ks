@@ -174,37 +174,3 @@ function doShutdown
 // ------------------------------------------------------staging----------
 
 
-// move this section to Notes
-
-// Launch
-// Ascent
-// Circularize if needed
-// Deorbit if needed
-// Braking burn if needed
-// Descent
-// Landing
-
-// loops:
-//      craft control
-//      report in-flight vehicle status
-//      gather renewable science and collect
-//      save telemetry
-
-// gather non-renewable science set one
-// gather non-renewable science set two
-// collect all science
-
-// boostback burn
-
-// deorbit
-// braking burn
-
-// landing:
-// deploy chutes
-//  or
-// powered landing
-
-// shutdown
-
-// panic mode
-
