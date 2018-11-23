@@ -11,7 +11,7 @@ Mission Phases:
 // Ascent
 
 // loops:
-//      craft control
+//      craft guidance
 //      report in-flight vehicle status
 //      gather renewable science and collect
 //      save telemetry
@@ -32,7 +32,7 @@ Mission Phases:
 //      deploy chutes
 //       or
 //      powered landing
-// end of flight loop ---------------------------------------------------+
+// end of flight loop -----------------------------------------------
 
 // shutdown
 
@@ -42,3 +42,34 @@ Mission Phases:
 //      save science if possible
 //      land if possible
 
+
+// ----------------------------------------------guidance----------------+
+
+// launch
+//      countdown initiates telemetry on a second kOS cpu?
+// Ascent
+//      define target landing site, or target orbit
+// descent
+
+// Landing:
+// the trajectory traces an arc or parabola on a plane
+// check if plane intersects target site, accounting for rotation of the planet
+// change trajectory to cross over target at 100 meters
+// or height above target determined by craft moment of inertia
+// need time to intercept target and groundspeed of rotation
+
+// ----------------------------------------------guidance------------
+
+
+
+// options for measuring altitude:
+
+// SET TRUEALT TO ALT:RADAR - (LowestPart:POSITION - Root:POSITION):MAG.
+// need to find lowestpart prior
+
+// ALTITUDE - SHIP:GEOPOSITION:TERRAINHEIGHT
+
+
+// useful module names:
+// ModuleParachute
+// ModuleEnvirosensor
